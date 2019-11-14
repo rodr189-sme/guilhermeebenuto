@@ -1,0 +1,154 @@
+
+html, body {
+	font-family: 'Rubik', sans-serif;
+	background-color: #3f4267;
+	background-image: url("https://www.transparenttextures.com/patterns/debut-light.png");
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+a, a:hover, a:active {
+	color: #fff;
+}
+
+
+.fa-inverse {
+	color: #3f4267 !important;
+}
+
+hr {
+	border: 0; border-top: 1px solid #fff;
+}
+
+.hide {
+	display: none;
+}
+
+.cover {
+	width: 90%;
+}
+
+.hide {
+	display: none;
+}
+
+
+.serif {
+	font-family: 'East Sea Dokdo', cursive;
+}
+
+
+.orange {
+	color: #ffb000;
+}
+
+.large-serif {
+	font-size: 3.5em;
+	line-height: 0.8em;
+}
+
+.medium-serif {
+	font-size: 2.3em;
+	line-height: 0.5em;
+}
+
+.small-serif {
+	font-size: 1em;
+}
+
+.small {
+	font-size: 0.9em;
+}
+
+.title {
+	margin-top: -0.7em;
+	text-shadow: 2px 2px #ffffff;
+}
+
+
+.medium-top {
+	margin-top: 2em;
+}
+
+.small-top {
+	margin-top: 1em;
+}
+
+.small-bottom {
+	margin-bottom: 1em;
+}
+
+#progressBar {
+  margin: 20px;
+  width: 230px;
+  height: 230px;
+  position: relative;
+}
+
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.btn-custom {
+	background-color: #ffb000;
+	color: #ffffff;
+	padding: 0.6em 2em 0.6em 2em;
+	width: 100%;
+	text-transform: uppercase;
+	border-radius: 0;
+}
+
+.btn-custom:hover {
+	color: #ffffff;
+}
+
+
+#footer {
+	margin-top: 5em;
+}
+
+@media (min-width: 1025px) { 
+
+
+	.large-serif {
+	font-size: 8em;
+	line-height: 0.8em;
+}
+
+.medium-serif {
+	font-size: 2.3em;
+	line-height: 0.5em;
+}
+
+.small-serif {
+	font-size: 1em;
+}
+
+
+.title {
+	margin-top: -0.7em;
+	text-shadow: 3px 3px #ffffff;
+}
+
+.cover {
+	width: 50%;
+}
+
+
+.small {
+	font-size: 1.2em;
+}
+
+
+}
